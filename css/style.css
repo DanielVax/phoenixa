@@ -1,0 +1,44 @@
+/* arquivo da folha de estilos de todo site */
+/* inicio CSS estilo header */
+body, ul {
+    margin: 0px;
+    padding: 0px;
+}
+#menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    font-size: 20px;
+}
+#menu a:hover {
+   background: rgba(0, 0, 0, 0.05);
+   font-size: 15px;
+}
+#logo {
+    font-size: 1.5rem;
+}
+#logo img {
+height: 70px;
+}
+#logo img:hover {
+    box-shadow: 8px 8px 10px rgb(255, 255, 255);
+    transition: 0.3s;
+}
+#header {
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0a0a0a;
+}
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+}
+#btn-mobile {
+     display: none;
+}
+/* fim CSS estilo header */
