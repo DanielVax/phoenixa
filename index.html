@@ -1,31 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
    <link rel="stylesheet" type="text/css" href="./css/style.css">
    <title>Phoenixa</title>
 </head>
+
 <body>
-    <!-- Inicio menu -->
-<header id="header">
-    <a id="logo" href="index.html"><img src="img/nasa-logo-D531386675-seeklogo.com.png" alt="logo"></a>
- <nav id="nav">
-    <button aria-label="abrir menu" id="btn-mobile" aria-haspopup="true"   
-  aria-controls="menu" aria-expanded="false">
-  <span id="hamburguer"></span>
-</button>
- <ul id="menu" role="menu">
-    <li><a class="linkMenu" href="index.html">Home</a></li>
-    <li><a class="linkMenu" href="#">planetas</a></li>
-    <li><a class="linkMenu" href="#">galaxias</a></li>
-    <li><a class="linkMenu" href="#">buracosnegros</a></li>
-    <li><a class="linkMenu" href="#">cotatos</a></li>
-   </ul>
-  </nav>
- </header>
- <!-- Fim menu -->
-    
+   <!-- Inicio menu -->
+   <header id="header">
+      <a id="logo" href="index.html"><img src="img/nasa-logo-D531386675-seeklogo.com.png" alt="logo"></a>
+      <nav id="nav">
+         <button aria-label="abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+            aria-expanded="false">
+            <span id="hamburguer"></span>
+         </button>
+         <ul id="menu" role="menu">
+            <li><a class="linkMenu" href="index.html">Home</a></li>
+            <li><a class="linkMenu" href="#">planetas</a></li>
+            <li><a class="linkMenu" href="#">galaxias</a></li>
+            <li><a class="linkMenu" href="#">buracosnegros</a></li>
+            <li><a class="linkMenu" href="#">cotatos</a></li>
+         </ul>
+      </nav>
+   </header>
+   <!-- Fim menu -->
+   <!-- inicio carousel pagina principal -->
+   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+         <div class="carousel-item active" data-bs-interval="2000">
+            <img src="./img/carrocel4.jpg" class="d-block w-100" alt="banner 1">
+         </div>
+         <div class="carousel-item" data-bs-interval="2000">
+            <img src="./img/carrocel1.jpg" class="d-block w-100" alt="banner 1">
+         </div>
+         <div class="carousel-item" data-bs-interval="2000">
+            <img src="./img/carrocel3.jpg" class="d-block w-100" alt="banner 1">
+         </div>
+      </div>
+
+      <button class="carousel-control-prev" data-bs-targed="#carouselExampleInterval" type="button"
+         data-bs-slide="prev">
+         <span class="carousel-control-prev-incon" aria-hidden="true">
+         </span>
+         <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" data-bs-targed="#carouselExampleInterval" type="button"
+         data-bs-slide="next">
+         <span class="carousel-control-next-incon" aria-hidden="true">
+         </span>
+         <span class="visually-hidden">Next</span>
+      </button>
+   </div>
+   <!-- fim carousel pagina principal -->
+   <!-- inicio banner -->
+   <div class="section-banner-home">
+      <div class="container-fluid">
+         <div class="row m-0">
+            <div class="col-12 col-md-6">
+               <figure>
+                  <img src="./img/400px-phoenixa.png" alt="banner home">
+               </figure>
+            </div>
+            <div class="col-12 col-md-6">
+               <section class="texto-banner d-none d-md-block">
+                  <h1>venha conheçer os misterios do universo</h1>
+                  <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, cumque
+                     fugit modi impedit mollitia minima vero illum accusamus quaerat expedita labore sequi alias tempore
+                     non? Cumque deleniti consequuntur nihil blanditiis.</p>
+                  <a href="#">Saiba Mais</a>
+               </section>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- fim banner -->
+   <!-- inicio destaque -->
+   <div class="destaque">
+      <div class="container">
+         <div class="row d-flex justify-content-center">
+        
+          </div>
+
+      </div>
+
+ </div>
+   <!-- fim destaque -->
 </body>
+
+<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
 </html>
