@@ -75,15 +75,16 @@ height: 70px;
 } */
 .section-banner-home .texto-banner h1 {
     font-size:  30px;
-    width: 60%;
-    font-weight: 500;
-    padding-bottom: 20px;
+    width: 90%; /* width = largura */
+    font-weight: 500; /* espessura do texto */
+    padding-bottom: 20px; /* margem interna > embaixo */
     color: aliceblue;
 }
 .section-banner-home .texto-banner p {
-font-size: 15px;
+font-size: 15px; 
 margin-bottom: 20px;
 color: aliceblue;
+text-align: justify;
 }
 .section-banner-home .texto-banner a {
     color: rgb(255, 255, 255);
@@ -100,3 +101,105 @@ color: aliceblue;
     font-weight: bold;
 }
 /* fim estilo banner home */
+
+/* inicio estilo destaque */
+.destaque h2 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.destaque p {
+    width: 77%;
+    text-align: center;
+    font-size: 14px;
+    margin: 30px auto;
+}
+.destaque figcaption {
+    font-size: 13px;
+    color: #18011a;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+.destaque #saiba-mais {
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    background: #18011a;
+    margin: 30px 0px;
+    width: 25;
+    ;
+    /* aligh-items: center */
+}
+.destaque .col-6 img:hover {
+    box-shadow: 4px 4px 6px black;
+    transition: 0.3s;
+}
+/* fim estilo destaque */
+
+/* inicio estilo novidades */
+.novidades .text-body {
+ width: 80%;
+ margin: 70px;
+}
+.novidades p {
+    color: rgb(0, 0, 0);
+}
+.novidades a {
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    background: #18011a;
+    margin: 30px 0px;
+    width: 25;
+    ;
+    /* aligh-items: center */
+}
+    /* aligh-items: center */
+
+/* fim estilo novidades */
+/* inicio estilo galeria */
+.galeria {
+    margin: 60px auto 20px;
+     /*quando tivermos 4 valores no margin = top / right / botton / left > exemplo: margin: 60px 60px 60px 60px  */
+     /* quando tivermos 3 valores = top / right and left / botton > exemplo: 60px auto 60px */
+     /* quando tivermos 2 valores = top and botton / right and left > exemplo: margin: 60px 30px */
+     /* quando tivermos 1 valor = top, botton, right, and left serao identicos > exemplo: margin: 60px; */
+    /* essa regra se aplica tambem ao padding. */
+}
+.galeria .container {
+    margin: left 11%;
+}
+.galeria h2 {
+    text-align: center;
+    font-size: 24px;
+}
+.galeria p {
+    text-align: center;
+    font-size: 24px;
+}
+.galeria .gallery {
+    width: 30%;
+    margin:  14px auto 50px;
+}
+.galeria .gallery img {
+    width: 80%;
+    height: 80%;
+    -webkit-transform: -webkit-transform .5s ease;
+    transform: scale (1.9) ease;
+    display: block;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.galeria .gallery img:hover {
+    -webkit-transform: scale(1.9);
+    transform: scale(1.9);
+    box-shadow: 0 0 10px #ff0000;
+}
+/* fim estilo galeria */
