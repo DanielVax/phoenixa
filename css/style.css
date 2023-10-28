@@ -473,3 +473,58 @@ ul {
     margin-top: 30px;
 }
 /* fim estilo videos */
+/* inicio estilo contato */
+.contact {
+    padding: 70px 0px;
+    background: #000000;
+}
+.section-title h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    border-bottom: 5px solid color #af8070;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.section-title p {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.contact input,
+.contact textarea {
+    background: #fafafa;
+}
+.contact textarea {
+    min-height: 188px;
+    max-width: 100%;
+}
+.contact .map {
+    overflow: hidden;
+    border-radius: 4px;
+    height: 70%;
+}
+
+
+
+/* fim estilo contato */
+
+/* inicio estilo marketing place */
+.market-place {
+    height: 180px;
+    width: 100%;
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.market-place img {
+    height: 30%;
+    width: 30%;
+}
+/* fim estilo marketing place */
