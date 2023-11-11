@@ -507,9 +507,6 @@ ul {
 }
 
 
-
-/* fim estilo contato */
-
 /* inicio estilo marketing place */
 .market-place {
     height: 180px;
@@ -528,3 +525,46 @@ ul {
     width: 30%;
 }
 /* fim estilo marketing place */
+
+/* fim estilo contato */
+
+/* inicio estilo produtos */
+.col-lg-3 .card {
+    border-style: none;
+    border: 0px;
+    min-height: 300px;
+}
+.text-center .mb-5 {
+    margin-top: 20px;
+}
+.card img {
+    height: auto;
+    width: 100%;
+}
+.card .bg-image {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.car .bg-image img {
+    height: 300px;
+}
+.hover-overlay .mask {
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.hover-overlay .mask:hover {
+    opacity: 1;
+}
+.card-body .btn {
+    background-color: #100601;   /* cor do botao */
+    color: white;
+    font-weight: 400;/* espessura do texto ex. negrito = bold*/
+    border: none;
+    outline: 0px solid transparent;
+}
+
+/* fim estilo produtos */
